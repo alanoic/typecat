@@ -1,6 +1,7 @@
 # typecat 🐱
 
-Typecat is a command-line utility that transforms text files into "lolcat" or "catspeak" language. Instead of letting your terminal spout boring prose, typecat translates your content into playful feline-speak: *correct grammar becomes creative chaos, proper nouns stay majestic, and your files get the meow treatment they deserve*.
+Typecat is a command-line utility that transforms text files into "lolcat" or "catspeak" language. Instead of letting your terminal spout boring prose, typecat translates your content into playful feline-speak:
+> *correct grammar becomes creative chaos, proper nouns stay majestic, and your files get the meow treatment they deserve*.
 
 ## Installation
 
