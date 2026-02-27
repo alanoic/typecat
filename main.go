@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	typecat "typecat/internal"
+
+	typecat "github.com/alwek/typecat/internal"
 )
 
 func main() {

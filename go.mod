@@ -1,4 +1,4 @@
-module typecat
+module github.com/alwek/typecat
 
 go 1.25.6
 
