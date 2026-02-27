@@ -1,16 +1,19 @@
 package internal
 
 import (
+	"embed"
 	"fmt"
-	"os"
 	"regexp"
 	"strings"
 
 	"gopkg.in/yaml.v3"
 )
 
+//go:embed data/dictionary.yml
+var dictionaryFile embed.FS
+
 func TransformContent(content string) (string, error) {
-	dictionaryContent, err := os.ReadFile("./data/dictionary.yml")
+	dictionaryContent, err := dictionaryFile.ReadFile("data/dictionary.yml")
 	if err != nil {
 		return "", fmt.Errorf("Error looking up dictionary: %v", err)
 	}
