@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	typecat "github.com/alwek/typecat/internal"
+	typecat "github.com/alanoic/typecat/internal"
 )
 
 func main() {
