@@ -1,13 +1,13 @@
 # typecat 🐱
 
 Typecat is a command-line utility that transforms text files into "lolcat" or "catspeak" language. Instead of letting your terminal spout boring prose, typecat translates your content into playful feline-speak:
-> *correct grammar becomes creative chaos, proper nouns stay majestic, and your files get the meow treatment they deserve*.
+> *Correct grammar becomes creative chaos, proper nouns stay majestic, and your files get the meow treatment they deserve*.
 
 ## Installation
 
 ### From source (requires Go 1.20+)
 ```sh
-go install github.com/alwek/typecat@latest
+go install github.com/alanoic/typecat@latest
 ```
 
 ### Building locally
