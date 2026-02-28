@@ -47,8 +47,8 @@ This is a demonstration of the typecat utility.
 
 **Output (transformed to lolcat):**
 ```
-TEH QUICK BROWN FOX JUMPS OVAR TEH LAZY DAWG.
-DIS AR TEH DEMONSTRASHUN OV TEH TYPECAT UTILITY.
+TEH QUICK BROWN FOX JUMPS OVAR TEH LAZY DOG.
+DIS IZ DEMONSTRATION OV TEH TYPECAT UTILITY.
 ```
 
 ## Sources

@@ -24,12 +24,22 @@ func TransformContent(content string) (string, error) {
 		return "", fmt.Errorf("Error reading dictionary: %v", err)
 	}
 
+	const skipWord = "\x00"
+	hasEmptyReplacement := false
 	re := regexp.MustCompile(`[a-zA-Z0-9']+`)
 	result := re.ReplaceAllStringFunc(content, func(word string) string {
 		if replacement, exists := dictionary[strings.ToUpper(word)]; exists {
+			if replacement == "" {
+				hasEmptyReplacement = true
+				return skipWord
+			}
 			return replacement
 		}
 		return strings.ToUpper(word)
 	})
+
+	if hasEmptyReplacement {
+		result = strings.ReplaceAll(result, skipWord+" ", "")
+	}
 	return result, nil
 }
